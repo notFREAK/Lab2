@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e889cff2-117f-4eb2-875f-153d386c2fa3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FiniteStateMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyStateMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StateMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StateMachineUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Transition.java" afterDir="false" />
+    <list default="true" id="e889cff2-117f-4eb2-875f-153d386c2fa3" name="Changes" comment="Итоговое приложение">
+      <change afterPath="$PROJECT_DIR$/src/StateMachineService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FiniteStateMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FiniteStateMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyStateMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyStateMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StateMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StateMachineUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Transition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +29,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2lkVao1mcmOLHsdqraH38YWXvWy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,9 +44,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.StateMachineUI.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/MyProjects/EPO/Lab3",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -56,6 +66,29 @@
       <option name="presentableId" value="Default" />
       <updated>1725724128281</updated>
     </task>
+    <task id="LOCAL-00001" summary="Итоговое приложение">
+      <created>1725724644003</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725724644003</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Итоговое приложение" />
+    <option name="LAST_COMMIT_MESSAGE" value="Итоговое приложение" />
   </component>
 </project>

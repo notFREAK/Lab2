@@ -6,4 +6,5 @@ public @interface Transition {
     String fromState();
     String event();
     String toState();
+    String methodName();
 }
