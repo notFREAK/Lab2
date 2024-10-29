@@ -1,21 +1,26 @@
 public abstract class FiniteStateMachine {
 
-    @Transition(fromState = "State1", event = "Event1", toState = "State2", methodName = "handleEvent1")
-    public void transition1() {
-        // Переход State1 -> State2
-    }
+    @Transition(fromState = "START", event = "LETTER", toState = "IDENTIFIER", methodName = "startIdentifier")
+    public void transition1() { }
 
-    @Transition(fromState = "State2", event = "Event2", toState = "State3", methodName = "handleEvent2")
-    public void transition2() {
-        // Переход State2 -> State3
-    }
+    @Transition(fromState = "START", event = "DIGIT", toState = "NUMBER", methodName = "startNumber")
+    public void transition2() { }
 
-    @Transition(fromState = "State3", event = "Event3", toState = "State1", methodName = "handleEvent3")
-    public void transition3() {
-        // Переход State3 -> State1
-    }
+    @Transition(fromState = "IDENTIFIER", event = "LETTER_OR_DIGIT", toState = "IDENTIFIER", methodName = "continueIdentifier")
+    public void transition3() { }
 
-    public abstract void handleEvent1();
-    public abstract void handleEvent2();
-    public abstract void handleEvent3();
+    @Transition(fromState = "NUMBER", event = "DIGIT", toState = "NUMBER", methodName = "continueNumber")
+    public void transition4() { }
+
+    @Transition(fromState = "IDENTIFIER", event = "OTHER", toState = "END", methodName = "endToken")
+    public void transition5() { }
+
+    @Transition(fromState = "NUMBER", event = "OTHER", toState = "END", methodName = "endToken")
+    public void transition6() { }
+
+    public abstract void startIdentifier();
+    public abstract void continueIdentifier();
+    public abstract void startNumber();
+    public abstract void continueNumber();
+    public abstract void endToken();
 }
