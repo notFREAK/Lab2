@@ -10,10 +10,12 @@ public class StateMachineService {
         this.currentState = initialState;
     }
 
-    public void processEvent(String event, char currentChar) throws Exception {
+    public void processChar(char c) throws Exception {
         if (!isRunning) {
             throw new IllegalStateException("Автомат остановлен из-за ошибки.");
         }
+        Method getEventTypeMethod = target.getClass().getMethod("getEventType", char.class);
+        String event = (String) getEventTypeMethod.invoke(target, c);
 
         Class<?> clazz = target.getClass();
         Method[] methods = clazz.getMethods();
@@ -24,10 +26,12 @@ public class StateMachineService {
             if (method.isAnnotationPresent(Transition.class)) {
                 Transition transition = method.getAnnotation(Transition.class);
                 if (transition.fromState().equals(currentState) && transition.event().equals(event)) {
+
                     Method setCharMethod = clazz.getMethod("setCurrentChar", char.class);
-                    setCharMethod.invoke(target, currentChar);
+                    setCharMethod.invoke(target, c);
 
                     System.out.println("Текущее состояние: " + currentState + ", Событие: " + event);
+
                     Method targetMethod = clazz.getMethod(transition.methodName());
                     targetMethod.setAccessible(true);
                     targetMethod.invoke(target);
@@ -49,5 +53,9 @@ public class StateMachineService {
             isRunning = false;
             System.out.println("Автомат достиг конечного состояния.");
         }
+    }
+
+    public String getCurrentState() {
+        return currentState;
     }
 }
