@@ -1,17 +1,40 @@
 public class MyStateMachine extends FiniteStateMachine {
 
+    private StringBuilder token = new StringBuilder();
+
     @Override
-    public void handleEvent1() {
-        System.out.println("Производный класс: Обработка Event1");
+    public void startIdentifier() {
+        token.append(currentChar);
+        System.out.println("Начало идентификатора: " + token);
     }
 
     @Override
-    public void handleEvent2() {
-        System.out.println("Производный класс: Обработка Event2");
+    public void continueIdentifier() {
+        token.append(currentChar);
+        System.out.println("Продолжение идентификатора: " + token);
     }
 
     @Override
-    public void handleEvent3() {
-        System.out.println("Производный класс: Обработка Event3");
+    public void startNumber() {
+        token.append(currentChar);
+        System.out.println("Начало числа: " + token);
+    }
+
+    @Override
+    public void continueNumber() {
+        token.append(currentChar);
+        System.out.println("Продолжение числа: " + token);
+    }
+
+    @Override
+    public void endToken() {
+        System.out.println("Токен завершен: " + token);
+        token.setLength(0);
+    }
+
+    private char currentChar;
+
+    public void setCurrentChar(char c) {
+        this.currentChar = c;
     }
 }
