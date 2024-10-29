@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e889cff2-117f-4eb2-875f-153d386c2fa3" name="Changes" comment="Итоговое приложение">
-      <change afterPath="$PROJECT_DIR$/src/StateMachineService.java" afterDir="false" />
+    <list default="true" id="e889cff2-117f-4eb2-875f-153d386c2fa3" name="Changes" comment="Лексический анализатор">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FiniteStateMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FiniteStateMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyStateMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyStateMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StateMachine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StateMachineUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Transition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +24,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;notFREAK&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/notFREAK/Lab2.git&quot;,
+    &quot;accountId&quot;: &quot;632dedfc-a603-4663-bc73-614dcf2d3752&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2lkVao1mcmOLHsdqraH38YWXvWy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,7 +58,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/MyProjects/EPO/Lab3",
+    "last_opened_file_path": "C:/MyProjects/EPO/Lab1",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -73,7 +80,47 @@
       <option name="project" value="LOCAL" />
       <updated>1725724644003</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Итоговое приложение">
+      <option name="closed" value="true" />
+      <created>1728825871747</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728825871747</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавление новых состояний для автомата">
+      <option name="closed" value="true" />
+      <created>1730207042216</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730207042216</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Добавление новых состояний для автомата">
+      <option name="closed" value="true" />
+      <created>1730207091744</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730207091744</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Переход от тривиального автомата к лексическому">
+      <option name="closed" value="true" />
+      <created>1730207216426</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730207216426</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Лексический анализатор">
+      <option name="closed" value="true" />
+      <created>1730209417575</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730209417575</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +136,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Итоговое приложение" />
-    <option name="LAST_COMMIT_MESSAGE" value="Итоговое приложение" />
+    <MESSAGE value="Добавление новых состояний для автомата" />
+    <MESSAGE value="Переход от тривиального автомата к лексическому" />
+    <MESSAGE value="Лексический анализатор" />
+    <option name="LAST_COMMIT_MESSAGE" value="Лексический анализатор" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="isRunning" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
