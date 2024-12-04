@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e889cff2-117f-4eb2-875f-153d386c2fa3" name="Changes" comment="Лексический анализатор">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e889cff2-117f-4eb2-875f-153d386c2fa3" name="Changes" comment="Добавление функциональности в методы Transition">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730210579249</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Добавление функциональности в методы Transition">
+      <option name="closed" value="true" />
+      <created>1733342745061</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733342745061</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,7 +154,8 @@
     <MESSAGE value="Добавление новых состояний для автомата" />
     <MESSAGE value="Переход от тривиального автомата к лексическому" />
     <MESSAGE value="Лексический анализатор" />
-    <option name="LAST_COMMIT_MESSAGE" value="Лексический анализатор" />
+    <MESSAGE value="Добавление функциональности в методы Transition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление функциональности в методы Transition" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

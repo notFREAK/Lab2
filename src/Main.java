@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             StateMachineService stateMachineService = new StateMachineService(MyStateMachine.class, "START");
-            String input = "var123 456\t789\n";
+            String input = "va1 45\t78\n";
 
             for (char c : input.toCharArray()) {
                 try {
