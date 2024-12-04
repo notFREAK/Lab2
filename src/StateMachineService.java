@@ -29,15 +29,13 @@ public class StateMachineService {
 
                     Method setCharMethod = clazz.getMethod("setCurrentChar", char.class);
                     setCharMethod.invoke(target, c);
-
-                    System.out.println("Текущее состояние: " + currentState + ", Событие: " + event);
+                    method.setAccessible(true);
+                    method.invoke(target);
 
                     Method targetMethod = clazz.getMethod(transition.methodName());
                     targetMethod.setAccessible(true);
                     targetMethod.invoke(target);
                     currentState = transition.toState();
-
-                    System.out.println("Переход в состояние: " + currentState + "\n");
                     transitionFound = true;
                     break;
                 }
